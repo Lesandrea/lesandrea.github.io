@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 2;
+  margin: 20px;
+}
+
+.about {
+  overflow: hidden; 
+  margin-bottom: 14px;
+}
+
+.image {
+  width: 100px;     
+  max-width: 35%;      
+  height: auto;
+  float: right;
+  margin: 0 16px 10px 0;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+
+}
+
+
+
+.clear {
+  clear: both;
+}
+
+
+.center {
+  text-align: center;
+}
