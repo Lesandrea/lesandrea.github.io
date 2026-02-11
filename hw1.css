@@ -13,20 +13,24 @@ body {
   width: 100px;     
   max-width: 35%;      
   height: auto;
-  float: right;
+  float: left;
   margin: 0 16px 10px 0;
   border-radius: 12px;
-  border: 1px solid #ccc;
+  border: 5px solid #ccc;
 
 }
-
-
 
 .clear {
   clear: both;
 }
 
-
 .center {
   text-align: center;
+}
+
+#clickButton {
+  font-size: 16px;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
 }

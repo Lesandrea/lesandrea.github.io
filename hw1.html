@@ -2,15 +2,22 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>CIS 128</title>
   <link rel="stylesheet" href="hw1.css">
+  <meta name="description" content="First web page for CIS 128 at College of San Mateo by Leslie Ramirez">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CIS 128</title>
 </head>
 
 <body>
-  <h1>Simple HTML and CSS Page</h1>
+  
+  <h1 id="pageTitle"> Simple HTML and CSS Page</h1>
+
+  <button id="clickButton" type="button">
+  Start Animation
+</button>
 
   <div class="about">
-  <img src="images/me.jpg" alt="Photo of myself" class="image">
+  <img id="homePic" src="images/me.jpg" alt="Photo of myself" class="image">
 
   <p>
     My name is Leslie Ramirez. I'm a student interested in learning how to
@@ -20,11 +27,11 @@
 
 
   <p class="clear">
-  I'm taking CIS 128 because I want to learn more about building and designing websites. I have only takes
+  I'm taking CIS 128 because I want to learn more about building and designing websites. I have only taken
   the intro course so this more advanced one will give me the challenge I need to improve my skills.
   </p>
 
-<h2 style="text-align: center;">Technologies for this class</h2>
+<h2 class="center">Technologies for this class</h2>
 
 <ul>
   <li>HTML</li>
@@ -32,7 +39,7 @@
   <li>JavaScript</li>
 </ul>
 
-<h2 style="text-align: center;">Resources</h2>
+<h2 class="center">Resources</h2>
 
 <ul>
   <li>
@@ -44,12 +51,17 @@
 
   <li>
     <a href="https://www.w3schools.com/" target="_blank" rel="noopener noreferrer">
-      w3chools
+      w3Schools
     </a>
     This website has many tutorials about HTML and CSS and many other tools web developers need.
 
   </li>
 </ul>
+
+
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="hw1a.js"></script>
 
 
 </body>
