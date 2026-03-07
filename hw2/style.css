@@ -187,18 +187,18 @@
 	/* RWD Technique */
 	@media (max-width: 600px) {
 
-		#header, .content, #footer {
+		div#header, div.content, div#footer {
 			width: 100%;
 			margin: 0;
 			padding-left: 12px;
 			padding-right: 12px;
 		}
 
-		#header {
+		div#header {
 			background-size: cover;
 		}
 
-		.sidebar-left, .col-right {
+		div.sidebar-left, div.col-right {
 			float: none;
 			width: 100%;
 			padding: 0;
