@@ -43,7 +43,7 @@ nameInput.addEventListener("change", function () {
 
   if (!savedName && typedName !== "") {
     localStorage.setItem("name", typedName);
-    nameMessage.textContent = "Welcome, " + typedName + "! Your name has been saved.";
+    nameMessage.textContent = "Welcome, " + typedName + " Your name has been saved.";
   } else if (savedName) {
     nameMessage.textContent = "Welcome back, " + savedName + "!";
   }
