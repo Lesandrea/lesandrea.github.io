@@ -1,1 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PWA Page</title>
+    <meta name="description" content="A simple progressive web application page.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- Manifest file link -->
+    <link rel="manifest" href="manifest.json">
+
+    <meta name="theme-color" content="#c977c8">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Progressive Web Application</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>What is a PWA?</h2>
+
+            <p>
+                A PWA stands for Progressive Web Application. It is a website that works similar to an app.
+                It can be opened in a browser or installed on a device.
+            </p>
+
+            <p>
+                The main characteristics of a PWA are that it is user friendly, engaging, responsive, and fast.
+                It can use a service worker so that it works even when offline and can cache important files.
+                It also uses a manifest file to control things like the icon, app name, and display style.
+            </p>
+        </section>
+
+        <section>
+            <h2>Background Options</h2>
+
+            <label for="backgroundSelect">Select a background style:</label>
+            <select id="backgroundSelect">
+                <option value="plain">Plain</option>
+                <option value="blue">Light Blue</option>
+                <option value="gold">Light Gold</option>
+            </select>
+        </section>
+
+        <section>
+            <h2>Local Storage</h2>
+
+            <label for="userName">Enter your name:</label>
+            <input type="text" id="userName" name="userName" placeholder="Type your name">
+
+            <p id="nameMessage">Your saved name will appear here: </p>
+        </section>
+    </main>
+
+    <!-- JavaScript -->
+    <script src="interaction.js"></script>
+</body>
+</html>

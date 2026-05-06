@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  background-color: white;
+  color: #222;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+body.blue-background {
+  background-image: url("images/lightblue.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+body.gold-background {
+  background-image: url("images/lightgold.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.4rem;
+}
+
+main {
+  width: 90%;
+  max-width: 900px;
+  margin: 2rem auto;
+}
+
+
+h2 {
+  margin-top: 0;
+  color: #2f4f6f;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+select,
+input {
+  width: 100%;
+  max-width: 400px;
+  padding: 0.75rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #777;
+  border-radius: 6px;
+}
+
+
+/* RWD media query */
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  main {
+    width: 95%;
+    margin: 1rem auto;
+  }
+  select,
+  input {
+    max-width: 100%;
+  }
+}
