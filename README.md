@@ -1,9 +1,17 @@
-# Leslie Ramirez Portfolio
+# Leslie Ramirez | Portfolio
 
-Personal website and software development portfolio.
+Personal portfolio highlighting my front-end development, game development,
+robotics, and connected technology work.
 
-Visit the site at [lesandrea.github.io](https://lesandrea.github.io).
+## Live Site
 
-Class assignments are maintained separately in the
-[`classLesandrea.github.io`](https://github.com/Lesandrea/classLesandrea.github.io)
-repository.
+[lesandrea.github.io](https://lesandrea.github.io)
+
+## Built With
+
+- Semantic HTML
+- Responsive CSS
+- GitHub Pages
+
+Course assignments are maintained separately in
+[`web-development-coursework`](https://github.com/Lesandrea/web-development-coursework).
